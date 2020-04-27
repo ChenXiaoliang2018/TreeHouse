@@ -1,0 +1,296 @@
+.content {
+    background: #fff;
+
+    .services {
+        width: 100%;
+        height: 535px;
+        text-align: center;
+
+        h3 {
+            font-size: 40px;
+            font-weight: bold;
+            font-family: Montserrat-Bold;
+            color: rgba(34, 34, 34, 1);
+            margin-top: 99px;
+        }
+
+        p.intro {
+            margin-top: 19px;
+            font-size: 17px;
+            font-family: RobotoSlab;
+            color: rgba(119, 119, 119, 1);
+        }
+
+        ul {
+            overflow: hidden;
+            width: 100%;
+            margin-top: 86px;
+
+            li {
+                float: left;
+                width: 274px;
+                text-align: center;
+                padding-top: 89px;
+                margin-right: 56px;
+                position: relative;
+
+                &:before {
+                    content: '';
+                    display: block;
+                    background: url('images/css_sprites.png');
+                    width: 54px;
+                    height: 48px;
+                    background-position: -151px -187px;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: 0;
+                }
+
+                span.name {
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: Montserrat-Bold;
+                    color: rgba(34, 34, 34, 1);
+                }
+
+                p.about {
+                    margin-top: 18px;
+                    font-size: 14px;
+                    font-family: RobotoSlab-Regular;
+                    color: rgba(119, 119, 119, 1);
+                }
+            }
+
+            li:nth-child(2) {
+                &:before {
+                    width: 40px;
+                    height: 52px;
+                    background-position: -1px -278px;
+                }
+            }
+
+            li:nth-child(3) {
+                margin-right: 0;
+
+                &:before {
+                    width: 55px;
+                    height: 44px;
+                    background-position: -207px -187px;
+                }
+            }
+        }
+    }
+
+    .relax {
+        box-sizing: border-box;
+        width: 100%;
+        height: 615.9px;
+        background-color: rgba(233, 233, 233, 1);
+        background-image: url('images/background/Background1.png'), url('images/background/gear.png');
+        background-position: 430px 0px, 237px 101px;
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover, 389px 416px;
+        padding-left: 430px;
+
+
+        .article {
+            box-sizing: border-box;
+            height: 615.9px;
+            padding-top: 100px;
+            padding-left: 101px;
+            background-color: rgba(0, 0, 0, .5);
+
+            h3 {
+                font-size: 40px;
+                font-family: Montserrat-Bold;
+                font-weight: bold;
+                color: rgba(255, 255, 255, 1);
+
+                i {
+                    color: rgba(124, 197, 118, 1)
+                }
+            }
+
+            p.intro {
+                margin-top: 45px;
+                font-size: 16px;
+                font-family: RobotoSlab-Regular;
+                color: rgba(204, 204, 204, 1);
+                width: 493px;
+            }
+
+            ul {
+                padding-top: 22px;
+
+                li {
+                    font-size: 16px;
+                    font-family: RobotoSlab-Regular;
+                    color: rgba(204, 204, 204, 1);
+                    padding-left: 53px;
+                    height: 32px;
+                    line-height: 32px;
+                    margin-bottom: 3px;
+                    position: relative;
+
+                    &:before {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 33px;
+                        height: 32px;
+                        background-image: url('images/css_sprites.png');
+                        background-position: -320px -89px;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+
+            button {
+                margin-top: 51px;
+                width: 168px;
+                height: 60px;
+                line-height: 60px;
+                background-color: rgba(124, 197, 118, 1);
+                border-radius: 45px;
+                color: rgba(255, 255, 255, 1);
+                font-size: 16px;
+                font-family: Montserrat-Bold;
+                font-weight: bold;
+                outline: none;
+            }
+
+        }
+    }
+
+    .project {
+        width: 100%;
+        height: 824px;
+        background-image: url('images/background/ipad.png');
+        background-size: 633.3px 490.8px;
+        background-position: right 265px;
+        background-repeat: no-repeat;
+        text-align: left;
+
+        .title {
+            text-align: center;
+
+            h3 {
+                font-size: 40px;
+                font-weight: bold;
+                font-family: Montserrat-Bold;
+                color: rgba(34, 34, 34, 1);
+                margin-top: 99px;
+            }
+
+            p.intro {
+                margin-top: 19px;
+                font-size: 20px;
+                font-family: RobotoSlab-Regular;
+                color: rgba(119, 119, 119, 1);
+            }
+        }
+
+        .article {
+            margin-top: 86px;
+            text-align: left;
+
+            h4 {
+                font-size: 18px;
+                font-family: Montserrat-Bold;
+                font-weight: bold;
+                color: rgba(34, 34, 34, 1);
+            }
+
+            p.about {
+                font-size: 16px;
+                font-family: RobotoSlab-Regular;
+                color: rgba(119, 119, 119, 1);
+                margin-top: 24px;
+                width: 413px;
+            }
+
+            ul {
+                margin-top: 25px;
+
+                li {
+                    height: 73px;
+                    margin-bottom: 15px;
+                    padding-top: 18px;
+                    padding-left: 90px;
+                    position: relative;
+
+
+                    p.title {
+                        font-size: 18px;
+                        font-family: Montserrat-Bold;
+                        font-weight: bold;
+                        color: rgba(34, 34, 34, 1);
+                        text-align: left;
+                    }
+
+                    p.discription {
+                        margin-top: 3px;
+                        font-size: 16px;
+                        font-family: RobotoSlab-Regular;
+                        color: rgba(119, 119, 119, 1);
+                    }
+
+                    &:before {
+                        content: '';
+                        display: block;
+                        width: 73px;
+                        height: 73px;
+                        background-image: url('images/css_sprites.png');
+                        background-position: -94px -94px;
+                        position: absolute;
+                        left: 0;
+                        top: 4px;
+
+                    }
+                }
+
+                li:nth-child(2) {
+                    &:before {
+                        background-position: -1px -187px;
+                    }
+                }
+
+                li:nth-child(3) {
+                    &:before {
+                        background-position: -76px -187px;
+                    }
+                }
+            }
+
+            p.explain {
+                font-size: 16px;
+                font-family: RobotoSlab-Regular;
+                color: rgba(119, 119, 119, 1);
+                width: 446px;
+            }
+
+            p.detail {
+                margin-top: 25px;
+                font-size: 16px;
+                font-family: Montserrat-Bold;
+                font-weight: bold;
+                color: rgba(124, 197, 118, 1);
+                position: relative;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    left: 110px;
+                    top: 7px;
+                    width: 15px;
+                    height: 12px;
+                    background-image: url('images/css_sprites.png');
+                    background-position: -350px -150px;
+                }
+            }
+        }
+    }
+}

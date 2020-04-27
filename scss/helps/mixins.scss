@@ -1,0 +1,31 @@
+ @mixin arrow($dir: top, $color: #eee, $width: 10px) {
+     width: 0;
+     font-size: 0;
+     border: $width solid transparent;
+     border-#{$dir}-color: $color;
+ }
+
+ @mixin clearfix() {
+     &:after {
+         content: '';
+         display: block;
+         clear: both;
+     }
+ }
+
+ @mixin ellipsis($rowCount: 1) {
+    @if $rowCount <=1 {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    } @else {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: $rowCount;
+      -webkit-box-orient: vertical;
+    }
+  }
+
+  

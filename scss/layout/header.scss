@@ -1,0 +1,43 @@
+
+nav {
+    @include clearfix();
+    height: 115px;
+    line-height: 115px;
+
+    .logo {
+        float: left;
+        position: relative;
+        left: 29px;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 29px;
+            height: 29px;
+            background: url('images/css_sprites.png') -264px -187px no-repeat;
+            position: absolute;
+            left: -30px;
+            top: 44px;
+        }
+
+        a {
+            font: 18px bold Montserrat;
+            color: rgba(85, 85, 85, 1);
+        }
+
+    }
+
+    ul.bar {
+        float: right;
+
+        li {
+            float: left;
+            margin-left: 35px;
+
+            a {
+                font: Montserrat-Regular 14px;
+                color: #777777;
+            }
+        }
+    }
+}

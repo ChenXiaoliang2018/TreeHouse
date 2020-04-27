@@ -1,0 +1,31 @@
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,img,ol,ul,li,
+/* 定义列表 */
+dl,dt,dd,
+form,label,fieldset,legend,
+table,caption,thead,tbody,tfoot,tr,th,td,
+/* 独立流内容 */
+figure,figcaption,
+header,nav,section,article,aside,footer,
+canvas,audio,video {
+	margin:0;
+	padding:0;	
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight:normal;
+}
+ul,ol,li {
+	list-style-type:none;
+}
+a {
+	color: #666;
+	text-decoration:none;
+	outline:none;
+}
+a:hover {
+	text-decoration:none;
+}
+button {
+	padding: 0;
+	background-color: transparent;
+	outline: none;
+}
